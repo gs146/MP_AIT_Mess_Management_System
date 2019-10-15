@@ -4,7 +4,7 @@ from django.db import models
 # from django.db import models
 
 # Create your models here.
-class feedback(models.Model):
-    name = models.CharField(max_length = 120)
+class report_feed(models.Model):
+    user_name = models.CharField(max_length = 120)
     reg_no = models.IntegerField(default=0)
-    message = models.TextField(default='best')
+    message = models.TextField(default='hey')
